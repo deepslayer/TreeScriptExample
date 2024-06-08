@@ -1,10 +1,7 @@
 package lowBranch;
-
 import leaves.AttackCowMeleeLeaf;
 import leaves.EatFoodLeaf;
 import org.dreambot.api.script.frameworks.treebranch.Branch;
-
-import static org.dreambot.api.utilities.Logger.log;
 
 public class MeleeCowBranch extends Branch {
 

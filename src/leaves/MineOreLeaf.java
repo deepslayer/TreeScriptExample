@@ -2,18 +2,19 @@ package leaves;
 
 import org.dreambot.api.script.frameworks.treebranch.Leaf;
 
-public class EatFoodLeaf extends Leaf {
+
+public class MineOreLeaf extends Leaf {
 
 
     @Override
     public boolean isValid() {
-        //e.g. if our HP is below 5 etc.
+       //e.ge if we are at the mining spot && has a pickaxe
         return true;
     }
 
     @Override
     public int onLoop() {
-        //eating logic here
+        //mining logic here
         return 600;
     }
 }

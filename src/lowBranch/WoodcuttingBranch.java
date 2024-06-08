@@ -1,21 +1,20 @@
 package lowBranch;
-import leaves.AttackCowRangeLeaf;
-import leaves.EatFoodLeaf;
+import leaves.BankInventoryLeaf;
+import leaves.ChopTreeLeaf;
 import org.dreambot.api.script.frameworks.treebranch.Branch;
 
+public class WoodcuttingBranch extends Branch {
 
-public class RangeCowBranch extends Branch {
-
-    public RangeCowBranch() {
+    public WoodcuttingBranch() {
         addLeaves(
-                new EatFoodLeaf(),
-                new AttackCowRangeLeaf()
+                new BankInventoryLeaf(),
+                new ChopTreeLeaf()
         );
     }
 
     @Override
     public boolean isValid() {
-        //logic for choosing to range the cow, e.g. we have a bow and ammo, but no sword etc.
+        //logic for choosing to train woodcutting, e.g we have an axe in the bank and dont have a pickaxe.
         return true;
     }
 

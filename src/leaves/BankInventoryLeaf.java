@@ -2,18 +2,19 @@ package leaves;
 
 import org.dreambot.api.script.frameworks.treebranch.Leaf;
 
-public class EatFoodLeaf extends Leaf {
+
+public class BankInventoryLeaf extends Leaf {
 
 
     @Override
     public boolean isValid() {
-        //e.g. if our HP is below 5 etc.
+        //e.g. if our inventory is full
         return true;
     }
 
     @Override
     public int onLoop() {
-        //eating logic here
+        //Banking logic here
         return 600;
     }
 }

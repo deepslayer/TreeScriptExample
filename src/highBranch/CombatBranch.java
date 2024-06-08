@@ -17,7 +17,7 @@ public class CombatBranch extends Branch {
 
     @Override
     public boolean isValid() {
-        //always returns true since it is the only and highest level branch
+        //logic here for choosing to do combat related task, for example if my combat is below 30, return true
         return true;
     }
 
