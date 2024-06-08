@@ -7,7 +7,7 @@ import org.dreambot.api.script.ScriptManifest;
 import org.dreambot.api.script.frameworks.treebranch.TreeScript;
 import org.dreambot.api.script.frameworks.treebranch.Root;
 
-@ScriptManifest(category = Category.UTILITY, name = "TreebranchMotherFucker", author = "", version = 0.0)
+@ScriptManifest(category = Category.UTILITY, name = "TreebranchExample", author = "", version = 0.0)
 public class MyTreeScript extends TreeScript {
 
     @Override
